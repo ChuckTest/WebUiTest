@@ -1,28 +1,27 @@
-/* test.css */
-
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1px; /* Adjust the gap as needed */
-  height: 100%; /* Ensure the container occupies the full height */
-  width: 100%; /* Ensure the container occupies the full width */
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.box {
-  flex: 1;
-  border: 1px solid black;
-  box-sizing: border-box;
+.inner-div {
+  width: 50%;
+  height: 50%; 
+}
+
+.div1 {
+  background-color: red; 
+}
+
+.div2 {
+  background-color: green;
+}
+
+.div3 {
+  background-color: blue;  
+}
+
+.div4 {
+  background-color: yellow;
 }
