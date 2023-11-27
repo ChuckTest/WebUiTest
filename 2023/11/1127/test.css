@@ -27,3 +27,11 @@
 .div4 {
   border-color: yellow; 
 }
+
+.inner-div1 {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  top: 50%; 
+  background-color: red;
+}
